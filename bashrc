@@ -1,0 +1,6 @@
+alias fcat="python /data/data/com.termux/files/home/GitHub/fcat/fcat.py"
+alias cls="clear && ls"
+alias rain="python /data/data/com.termux/files/home/GitHub/Rainbow/rain.py no"
+alias nrain="python /data/data/com.termux/files/home/GitHub/Rainbow/rain.py yes"
+alias rainbow="sh /data/data/com.termux/files/home/GitHub/Rainbow/rain_mobile.sh"
+alias lol="clear && pwd && ls | lolcat"

@@ -8,3 +8,5 @@ alias todo="cd ~/x/TODO"
 alias juno="sh ~/.juno.sh"
 alias cmds="clear && echo bashrc && cat ~/.bashrc"
 alias gitsync="python /data/data/com.termux/files/home/x/Github/.gitsync.py"
+# hey dont use this as a todo update button right?
+alias todou="cd /data/data/com.termux/files/home/x/TODO && git pull"

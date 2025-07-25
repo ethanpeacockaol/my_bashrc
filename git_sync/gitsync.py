@@ -1,6 +1,8 @@
 import os
 import subprocess
 # hey comment me out when you install the gitsync command into aliases (.bashrc) and place gitsync.py in the github dir named .gitsync
+#heres what the alias should look like
+# alias gitsync="python /data/data/com.termux/files/home/x/Github/.gitsync"
 print('hey add gitsync to Github directory as .gitsync.py right and then add an alias to call it from anywhere')
 dirs_to_pull = ["/data/data/com.termux/files/home/x/TODO"]
 prepend = "/data/data/com.termux/files/home/x/Github/"

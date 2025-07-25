@@ -1,6 +1,7 @@
 import os
 import subprocess
 # add the todo directory
+print('hey add gitsync to Github directory as .gitsync.py right and then add an alias to call it from anywhere')
 dirs_to_pull = ["/data/data/com.termux/files/home/x/TODO"]
 
 
@@ -11,7 +12,7 @@ dirs_to_pull = ["/data/data/com.termux/files/home/x/TODO"]
 
 # Here is the command that returns a list of strings that represent an ls output
 
-os.system("cd /data/data/com.termux/files/home/x/Github")
+
 ls_output = subprocess.run("ls", capture_output=True, text=True)
 ls_items = ls_output.stdout.split("\n")[:-1]
 for item in ls_items:
